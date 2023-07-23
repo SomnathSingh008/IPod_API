@@ -1,0 +1,125 @@
+.ipodBody{
+    width: 25%;
+    height: 90vh;
+    margin-left: 30em;
+    margin-top: 2em;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(199, 199, 199, 0.705);
+    box-shadow: 0px 0px 25px rgb(82, 82, 82) inset;
+}
+.display{
+    display: flex;
+    width: 92%;
+    height: 45%;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 8%;
+    background-color: white;
+}
+.menuBar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin-left: 1em;
+}
+.menuBar a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    height: 1.5em;
+    width: 90%;
+    padding-top: 0.5em;
+    padding-left: 0.3em;
+}
+.active{
+    background-color: rgb(42, 130, 247);
+    color: white !important;
+}
+.active::after{
+    margin-right: 0.5em;
+    content: ">";
+}
+.wallPaper{
+    height: 100%;
+    width: 50%;
+}
+.wallPaper img{
+    height: 100%;
+    width: 100%;
+}
+.Option{
+    display: none;
+}
+.controller{
+    width: 75%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.outer-circle{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.three-btns{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Menu{
+    /* height: 1%; */
+    font-weight: 700;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev{
+    width: 20%;
+}
+.prev img{
+    width: 70%;
+    height: 20%;
+}
+.inner-circle{
+    height: 70%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: rgb(175, 175, 175);
+}
+.next{
+    width: 20%;
+}
+.next img{
+    width: 70%;
+    height: 20%;
+    margin-left: 0.8em;
+}
+.play-pause{
+    height: 10%;
+    /* padding-bottom: 1em; */
+    /* padding-right: 1em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-pause img{
+    width: 45px;
+    height: 45px;
+}
